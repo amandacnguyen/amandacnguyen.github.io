@@ -1,76 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
+<!DOCTYPE html>                     <!-- Tells browsers this is an HTML5 document -->
+<html lang="en">                    <!-- Root element of page, specifies English language -->
+
+<head>                              <!-- Container for metadata (info about the document) -->
+    <meta charset="UTF-8">          <!-- Specifies character encoding for proper text display -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Makes site mobile-responsive -->
+    <title>My GitHub Website</title><!-- Sets browser tab title -->
+
+    <style>                         <!-- Contains all CSS styling rules -->
+        body {                      <!-- Styles for the entire page content -->
+            font-family: Arial, sans-serif;    <!-- Sets font type -->
+            line-height: 1.6;                  <!-- Sets space between lines of text -->
+            margin: 0;                         <!-- Removes default spacing around page -->
+            padding: 20px;                     <!-- Adds 20px space inside the body -->
+            max-width: 800px;                  <!-- Sets maximum width of content -->
+            margin: 0 auto;                    <!-- Centers content on page -->
         }
-        header {
-            background-color: #f4f4f4;
-            padding: 1rem;
-            margin-bottom: 2rem;
-            border-radius: 5px;
+        
+        header {                    <!-- Styles for the header section -->
+            background-color: #f4f4f4;         <!-- Light gray background -->
+            padding: 1rem;                     <!-- Adds space inside header -->
+            margin-bottom: 2rem;               <!-- Adds space below header -->
+            border-radius: 5px;                <!-- Rounds corners -->
         }
-        nav {
-            margin-bottom: 2rem;
+
+        nav {                       <!-- Styles for navigation menu -->
+            margin-bottom: 2rem;              <!-- Space below navigation -->
         }
-        nav a {
-            margin-right: 1rem;
-            text-decoration: none;
-            color: #333;
+
+        nav a {                     <!-- Styles for navigation links -->
+            margin-right: 1rem;               <!-- Space between links -->
+            text-decoration: none;            <!-- Removes underline from links -->
+            color: #333;                      <!-- Dark gray text color -->
         }
-        .content {
-            background-color: white;
-            padding: 2rem;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        .content {                  <!-- Styles for main content area -->
+            background-color: white;          <!-- White background -->
+            padding: 2rem;                    <!-- Space inside content area -->
+            border-radius: 5px;               <!-- Rounded corners -->
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); <!-- Subtle shadow effect -->
         }
-        footer {
-            margin-top: 2rem;
-            padding: 1rem;
-            text-align: center;
-            color: #666;
+
+        footer {                    <!-- Styles for footer section -->
+            margin-top: 2rem;                 <!-- Space above footer -->
+            padding: 1rem;                    <!-- Space inside footer -->
+            text-align: center;               <!-- Centers footer text -->
+            color: #666;                      <!-- Medium gray text color -->
         }
     </style>
 </head>
-<body>
-    <header>
-        <h1>Welcome to My Website</h1>
+
+<body>                             <!-- Contains all visible content -->
+    <header>                       <!-- Top section of the page -->
+        <h1>Welcome to My Website</h1>  <!-- Main heading -->
     </header>
     
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+    <nav>                          <!-- Navigation menu -->
+        <a href="#home">Home</a>         <!-- Link to home section -->
+        <a href="#about">About</a>       <!-- Link to about section -->
+        <a href="#contact">Contact</a>   <!-- Link to contact section -->
     </nav>
 
-    <div class="content">
-        <section id="home">
-            <h2>Home</h2>
-            <p>Welcome to my website! This is a simple template you can customize.</p>
+    <div class="content">          <!-- Main content container -->
+        <section id="home">             <!-- Home section -->
+            <h2>Home</h2>               <!-- Section heading -->
+            <p>Welcome text here</p>    <!-- Paragraph text -->
         </section>
 
-        <section id="about">
+        <section id="about">            <!-- About section -->
             <h2>About</h2>
-            <p>Tell visitors about yourself or your project here.</p>
+            <p>About text here</p>
         </section>
 
-        <section id="contact">
+        <section id="contact">          <!-- Contact section -->
             <h2>Contact</h2>
-            <p>Add your contact information or a contact form here.</p>
+            <p>Contact info here</p>
         </section>
     </div>
 
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <footer>                       <!-- Bottom section of page -->
+        <p>&copy; 2025 Amanda Nguyen</p>   <!-- Copyright notice -->
     </footer>
 </body>
 </html>
