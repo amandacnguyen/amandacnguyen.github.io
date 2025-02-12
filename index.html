@@ -1,84 +1,113 @@
-<!DOCTYPE html>                     <!-- Tells browsers this is an HTML5 document -->
-<html lang="en">                    <!-- Root element of page, specifies English language -->
+<!-- Declares that this is an HTML5 document -->
+<!DOCTYPE html>
+<!-- Opens the HTML document and sets language to English -->
+<html lang="en">
 
-<head>                              <!-- Container for metadata (info about the document) -->
-    <meta charset="UTF-8">          <!-- Specifies character encoding for proper text display -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Makes site mobile-responsive -->
-    <title>My GitHub Website</title><!-- Sets browser tab title -->
-
-    <style>                         <!-- Contains all CSS styling rules -->
-        body {                      <!-- Styles for the entire page content -->
-            font-family: Arial, sans-serif;    <!-- Sets font type -->
-            line-height: 1.6;                  <!-- Sets space between lines of text -->
-            margin: 0;                         <!-- Removes default spacing around page -->
-            padding: 20px;                     <!-- Adds 20px space inside the body -->
-            max-width: 800px;                  <!-- Sets maximum width of content -->
-            margin: 0 auto;                    <!-- Centers content on page -->
+<!-- Opens the head section where we put metadata and resources -->
+<head>
+    <!-- Sets the character encoding to support all text characters -->
+    <meta charset="UTF-8">
+    <!-- Makes the website responsive on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sets what appears in the browser tab -->
+    <title>My GitHub Website</title>
+    <!-- Opens the style section for CSS -->
+    <style>
+        /* Styles for the entire page */
+        body {
+            font-family: Arial, sans-serif;    /* Sets the main font type */
+            line-height: 1.6;                  /* Sets spacing between lines of text */
+            margin: 0;                         /* Removes space around the edge of page */
+            padding: 20px;                     /* Adds inner spacing to the page */
+            max-width: 800px;                  /* Sets maximum width of content */
+            margin: 0 auto;                    /* Centers the content on the page */
         }
         
-        header {                    <!-- Styles for the header section -->
-            background-color: #f4f4f4;         <!-- Light gray background -->
-            padding: 1rem;                     <!-- Adds space inside header -->
-            margin-bottom: 2rem;               <!-- Adds space below header -->
-            border-radius: 5px;                <!-- Rounds corners -->
+        /* Styles for the top header section */
+        header {
+            background-color: #f4f4f4;         /* Light gray background */
+            padding: 1rem;                     /* Adds space inside the header */
+            margin-bottom: 2rem;               /* Adds space below the header */
+            border-radius: 5px;                /* Rounds the corners */
         }
 
-        nav {                       <!-- Styles for navigation menu -->
-            margin-bottom: 2rem;              <!-- Space below navigation -->
+        /* Styles for the navigation container */
+        nav {
+            margin-bottom: 2rem;               /* Adds space below navigation */
         }
 
-        nav a {                     <!-- Styles for navigation links -->
-            margin-right: 1rem;               <!-- Space between links -->
-            text-decoration: none;            <!-- Removes underline from links -->
-            color: #333;                      <!-- Dark gray text color -->
+        /* Styles for the navigation links */
+        nav a {
+            margin-right: 1rem;                /* Adds space between links */
+            text-decoration: none;             /* Removes underline from links */
+            color: #333;                       /* Dark gray text color */
         }
 
-        .content {                  <!-- Styles for main content area -->
-            background-color: white;          <!-- White background -->
-            padding: 2rem;                    <!-- Space inside content area -->
-            border-radius: 5px;               <!-- Rounded corners -->
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); <!-- Subtle shadow effect -->
+        /* Styles for the main content area */
+        .content {
+            background-color: white;           /* White background */
+            padding: 2rem;                     /* Adds space inside content area */
+            border-radius: 5px;                /* Rounds the corners */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds subtle shadow */
         }
 
-        footer {                    <!-- Styles for footer section -->
-            margin-top: 2rem;                 <!-- Space above footer -->
-            padding: 1rem;                    <!-- Space inside footer -->
-            text-align: center;               <!-- Centers footer text -->
-            color: #666;                      <!-- Medium gray text color -->
+        /* Styles for the bottom footer */
+        footer {
+            margin-top: 2rem;                  /* Adds space above footer */
+            padding: 1rem;                     /* Adds space inside footer */
+            text-align: center;                /* Centers the text */
+            color: #666;                       /* Medium gray text color */
         }
     </style>
 </head>
 
-<body>                             <!-- Contains all visible content -->
-    <header>                       <!-- Top section of the page -->
-        <h1>Welcome to My Website</h1>  <!-- Main heading -->
+<!-- Opens the body section where all visible content goes -->
+<body>
+    <!-- Header section with main title -->
+    <header>
+        <!-- Main title of the website -->
+        <h1>Welcome to My Website</h1>
     </header>
     
-    <nav>                          <!-- Navigation menu -->
-        <a href="#home">Home</a>         <!-- Link to home section -->
-        <a href="#about">About</a>       <!-- Link to about section -->
-        <a href="#contact">Contact</a>   <!-- Link to contact section -->
+    <!-- Navigation menu with links -->
+    <nav>
+        <!-- Links to different sections (the # makes them jump to sections on the page) -->
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <div class="content">          <!-- Main content container -->
-        <section id="home">             <!-- Home section -->
-            <h2>Home</h2>               <!-- Section heading -->
-            <p>Welcome text here</p>    <!-- Paragraph text -->
+    <!-- Main content container -->
+    <div class="content">
+        <!-- Home section with id for navigation -->
+        <section id="home">
+            <!-- Section title -->
+            <h2>Home</h2>
+            <!-- Section content -->
+            <p>Welcome text here</p>
         </section>
 
-        <section id="about">            <!-- About section -->
+        <!-- About section with id for navigation -->
+        <section id="about">
+            <!-- Section title -->
             <h2>About</h2>
+            <!-- Section content -->
             <p>About text here</p>
         </section>
 
-        <section id="contact">          <!-- Contact section -->
+        <!-- Contact section with id for navigation -->
+        <section id="contact">
+            <!-- Section title -->
             <h2>Contact</h2>
+            <!-- Section content -->
             <p>Contact info here</p>
         </section>
     </div>
 
-    <footer>                       <!-- Bottom section of page -->
-        <p>&copy; 2025 Amanda Nguyen</p>   <!-- Copyright notice -->
+    <!-- Footer section -->
+    <footer>
+        <!-- Copyright notice with current year -->
+        <p>&copy; 2025 Amanda Nguyen</p>
     </footer>
 </body>
 </html>
