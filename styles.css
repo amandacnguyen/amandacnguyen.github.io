@@ -1,0 +1,45 @@
+/* These styles apply to the entire body of each webpage */
+body {
+    font-family: Arial, sans-serif;    /* Sets the main font with a fallback option */
+    line-height: 1.6;                  /* Sets the space between lines of text */
+    margin: 0;                         /* Removes default spacing around the page edge */
+    padding: 20px;                     /* Adds 20px of inner spacing to the whole page */
+    max-width: 800px;                  /* Makes sure content isn't too wide */
+    margin: 0 auto;                    /* Centers the content on the page */
+}
+
+/* Styles for the header section at the top of each page */
+header {
+    background-color: #f4f4f4;         /* Light gray background color */
+    padding: 1rem;                     /* Adds space inside the header */
+    margin-bottom: 2rem;               /* Adds space below the header */
+    border-radius: 5px;                /* Rounds the corners */
+}
+
+/* Styles for the navigation section */
+nav {
+    margin-bottom: 2rem;               /* Adds space below the navigation */
+}
+
+/* Styles specifically for the links in the navigation */
+nav a {
+    margin-right: 1rem;                /* Adds space between each link */
+    text-decoration: none;             /* Removes the underline from links */
+    color: #333;                       /* Dark gray text color for links */
+}
+
+/* Styles for the main content section */
+.content {
+    background-color: white;           /* White background for content */
+    padding: 2rem;                     /* Adds space inside the content box */
+    border-radius: 5px;                /* Rounds the corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds a subtle shadow effect */
+}
+
+/* Styles for the footer at the bottom of each page */
+footer {
+    margin-top: 2rem;                  /* Adds space above the footer */
+    padding: 1rem;                     /* Adds space inside the footer */
+    text-align: center;                /* Centers the text in the footer */
+    color: #666;                       /* Medium gray text color */
+}
